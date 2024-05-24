@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-3h+%#)lc)865xl+7u276nyehb)ax+uhg1k2d%*0p7%+v&((1v4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-amnasaqib-foodmenu-jf2ikigo0wr.ws-eu114.gitpod.io']
+ALLOWED_HOSTS = ['8000-amnasaqib-foodmenu-jf2ikigo0wr.ws-eu114.gitpod.io'
+,'.herokuapp.com']
 
 
 # Application definition
@@ -112,7 +113,6 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
